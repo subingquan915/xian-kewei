@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,input,select,textarea,td{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+}
+a{
+	text-decoration:none;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border:0;
+}
+
+/*header*/
+.header{
+	width:1000px;
+	height:60px;
+	margin:20px auto;
+}
+.logo{
+	float:left;
+}
+.logo img{
+	float:left;
+	height:60px;
+	width:400px;
+}
+.header .phone{
+	display: flex;
+	float:right;
+	/* padding-top:39px;
+	padding-right:20px; */
+}
+.header .phone img{
+	height:40px;
+	width:40px;
+}
+.header .phone span{
+	color:blue
+}
+.txt{
+	width:192px;
+	height:26px;
+	border:1px solid #e5e5e5;
+	background:#f1f1f1;
+	border-right:none;
+	/*vertical-align:middle;*/
+	float:left;
+	text-indent:14px;
+	outline:none;
+}
+.btn{
+	width:32px;
+	height:28px;
+	border:1px solid #e5e5e5;
+	text-indent:-100px;
+	background:url(../img/search.png);
+	border-left:none;
+	/*vertical-align:middle;*/
+	float:left;
+	outline:none;
+}
+
+
+
+
+
+/*nav*/
+.nav{
+	width:975px;
+	height:59px;
+	background:#2f2f2f;
+	margin:0 auto;
+	text-align:center;
+	line-height:59px;
+	clear:both;
+	padding-left:25px;
+}
+.nav a{
+	color:white;
+	font-size:14px;
+	float:left;
+	width:130px;
+	height:59px;
+	border-right:1px solid #484848;
+}
+
+.nav .focus{
+	border-right:0;
+}
+
+/*banner*/
+.banner{
+	width:1000px;
+	height:463px;
+	background:yellow;
+	margin:0 auto;
+}
+.banner img{
+	width:1000px;
+	height:463px;
+}
+
+/*section*/
+.section{
+	width:1000px;
+	height:240px;
+	margin:0 auto;
+}
+.news,.intro,.job{
+	height:204px;
+	padding-top:36px;
+}
+.news{
+	width:478px;
+	float:left;
+	padding-left:22px;
+}
+.tit{
+	font-weight:normal;
+	font-size:18px;
+	color:#1d1d1d;
+	line-height:18px;
+}
+.uls{
+	font-size:12px;
+	margin-top:20px;
+}
+.uls a{
+	color:#4b4b4b;
+	width:300px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	float:left;
+}
+.uls span{
+	color:#929292;
+	float:right;
+	margin-right:27px;
+}
+.uls li{
+	line-height:25px;
+	background:url(../img/icon.png) no-repeat left center;
+	text-indent:12px;
+	height:25px;
+}
+.intro{
+	width:215px;
+	background:#f1f1f1;
+	float:left;
+	padding-left:25px;
+}
+.intro p{
+	font-size:12px;
+	color:#909090;
+	line-height:25px;
+}
+.intro .firstP{
+	color:#595959;
+	margin-top:33px;
+	margin-bottom:14px;
+}
+.firstP span{
+	font-size:14px;
+}
+.job{
+	width:235px;
+	background:#fbfbfb url(../img/flower.jpg) no-repeat right bottom;
+	float:left;
+	padding-left:25px;
+}
+.job p{
+	color:#595959;
+	line-height:25px;
+	font-size:12px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+/*market*/
+.market{
+	width:980px;
+	height:276px;
+	margin:0 auto;
+	padding-left:20px;
+	padding-top:30px;
+}
+.imgList{
+	margin-top:17px;
+}
+.imgList li{
+	width:210px;
+	font-size:12px;
+	color:#585858;
+	float:left;
+	margin-right:40px;
+	position:relative;
+}
+.add{
+	position:absolute;
+	right:0;
+	top:116px;
+}
+.imgList li img{
+	display:block;
+}
+.imgList li p{
+	line-height:22px;
+	margin-top:12px;
+}
+.imgList .last{
+	margin-right:0;
+}
+
+
+/*sortarea*/
+.sortarea{
+	width: 1000px;
+	height: 250px;
+	background: #e5e5e5;
+	margin:0 auto;
+}
+.product,.tech,.inter{
+	height: 250px;
+	float: left;
+}
+.product{
+	width: 452px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+.f_tit{
+	font-weight: 100;
+	font-size: 16px;
+	color: #626262;
+	line-height: 36px;
+	padding-top: 20px;
+	border-bottom: 1px solid #c1c1c1;
+	text-indent: 12px;
+}
+.tech{
+	width: 153px;
+	margin-right: 50px;
+}
+.inter{
+	width: 256px;
+}
+.content{
+	padding-top: 15px;
+}
+.content ul{
+	font-size: 12px;
+	float: left;
+}
+.content ul li{
+	line-height: 24px;
+	background: url(../img/li_bg.jpg) no-repeat left center;
+	text-indent: 18px;
+}
+.content ul li a{
+	color: #616161;
+}
+.ul_one{
+	width: 150px;
+}
+.ul_two{
+	width: 190px;
+}
+
+
+/*footer*/
+.footer{
+	width:1000px;
+	height:82px;
+	margin:0 auto;
+	color: #7f7f7f;
+	font-size: 12px;
+	line-height: 55px;
+}
+.footer a{
+	color: #7f7f7f;
+}
+.foot_left{
+	float:left;
+	padding-left: 22px;
+}
+.foot_right{
+	float:right;
+	padding-right: 20px;
+}
+.bdsharebuttonbox{
+	float: right;
+	padding-top: 13px;
+}
+
+
+
