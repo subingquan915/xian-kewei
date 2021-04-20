@@ -99,7 +99,7 @@ img{
 .banner{
 	width:1000px;
 	height:463px;
-	background:yellow;
+	/* background:yellow; */
 	margin:0 auto;
 }
 .banner img{
