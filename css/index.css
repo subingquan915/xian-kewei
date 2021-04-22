@@ -75,7 +75,7 @@ img{
 .nav{
 	width:975px;
 	height:59px;
-	background:#2f2f2f;
+	background:#045074;
 	margin:0 auto;
 	text-align:center;
 	line-height:59px;
@@ -98,13 +98,13 @@ img{
 /*banner*/
 .banner{
 	width:1000px;
-	height:463px;
+	/* height:463px; */
 	/* background:yellow; */
 	margin:0 auto;
 }
 .banner img{
 	width:1000px;
-	height:463px;
+	height:650px;
 }
 
 /*section*/
@@ -218,6 +218,19 @@ img{
 .imgList .last{
 	margin-right:0;
 }
+
+.video{
+	width:980px;
+	margin:0 auto;
+	padding-left:20px;
+	padding-bottom:30px;
+}
+.videoDiv{
+	padding:30px 0px;
+	display: flex;
+	justify-content: center;
+}
+
 
 
 /*sortarea*/
