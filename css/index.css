@@ -103,8 +103,11 @@ img{
 	margin:0 auto;
 }
 .banner img{
-	width:1000px;
-	height:650px;
+	display: block;
+	width: 100%;
+	height:500px;
+	/* width:1000px;
+	height:650px; */
 }
 
 /*section*/
@@ -263,7 +266,7 @@ img{
 	margin-right: 50px;
 }
 .inter{
-	width: 256px;
+	/* width: 256px; */
 }
 .content{
 	padding-top: 15px;
@@ -285,6 +288,10 @@ img{
 }
 .ul_two{
 	width: 190px;
+}
+.lianxi{
+	font-size: 14px;
+	margin: 15px 0px;
 }
 
 
