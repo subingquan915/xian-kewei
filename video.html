@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司介绍</title>
+</head>
+<style>
+    .header {
+        width: 1000px;
+        height: 60px;
+        margin: 20px auto;
+        border-bottom: 1px solid grey;
+
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .logo img {
+        float: left;
+        height: 60px;
+        width: 400px;
+    }
+
+    .tit {
+        font-weight: normal;
+        font-size: 18px;
+        color: #1d1d1d;
+        line-height: 18px;
+    }
+
+    .video {
+        width: 980px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+
+    .videoDiv {
+        padding: 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <a href="#" class="logo"><img src="img/logo.png" /></a>
+    </div>
+    <div class="video">
+        <h3 class="tit">缠绕视频</h3>
+        <div class="videoDiv">
+            <video controls autoplay loop poster="img/pic1.jpg">
+                <source src="src/v1.mp4" type="video/mp4" />
+                您的浏览器版本太低，请升级浏览器！
+            </video>
+            <p>---压力容器缠绕成型</p>
+        </div>
+        <div class="videoDiv">
+            <video controls autoplay loop  poster="img/pic2.jpg">
+                <source src="src/v2.mp4" type="video/mp4" />
+                您的浏览器版本太低，请升级浏览器！
+            </video>
+            <p>---锥形体缠绕成型</p>
+        </div>
+        <div class="videoDiv">
+            <video controls autoplay loop  poster="img/pic3.jpg">
+                <source src="src/v3.mp4" type="video/mp4" />
+                您的浏览器版本太低，请升级浏览器！
+            </video>
+            <p>---圆筒缠绕成型</p>
+        </div>
+        <div class="videoDiv">
+            <video controls autoplay loop  poster="img/pic4.jpg">
+                <source src="src/v4.mp4" type="video/mp4" />
+                您的浏览器版本太低，请升级浏览器！
+            </video>
+            <p>---方形体缠绕成型</p>
+        </div>
+    </div>
+</body>
+</html>
