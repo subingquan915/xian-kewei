@@ -19,6 +19,7 @@ img{
 
 /*header*/
 .header{
+	background-color: white;
 	width:1000px;
 	height:60px;
 	margin:20px auto;
